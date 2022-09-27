@@ -1,9 +1,11 @@
-*   {
-    padding: 0;
-    margin: ;
-    font-size: 40px;
+html {
     box-sizing: border-box;
-}
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
 .pic {
     height: auto;
